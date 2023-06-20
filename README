@@ -1,0 +1,47 @@
+//README
+//This file explains the API for ChessGPT, the purpose of the application, and a brief explanation on its usage.
+//*******************************************************************************************************************************************************************************************************************************************
+
+
+
+//~ChessGPT~
+//ChessGPT is a program, designed by Jeffrey Ching, Jayniel Gagui, Fabian Hernandez, Vanessa Lauridsen, Varvara Vorobieva and Tangqin Zhu of EECS 22L as their submission for Project 1. 
+//The program simulates a classical game of chess, following all the traditional rules of chess. It presents the user with an option, to play against the program, or to observe the program play against itself.
+
+//To install the game, please see the INSTALL file in the directory. For further instructions please see the Chess_UserManual.pdf
+ 
+
+//~Current Status~
+//The current state of the project is in Alpha, as we are still working on the AI module of the program and attempting to integrate smaller functions into the overarching algorithm. To this point, the team has developed and debugged the //chess board, its ability to update to reflect the latest move, and the ability to move a chess piece. The AI module will take some time to develop, as the team needs to work on the program's ability to calculate legal moves, as well 
+//as pick out the best one, and prevent the user from comitting to an illegal move. 
+
+
+//~Data Structures~
+//The team decided to use a two-dimensional array to represent the chess board, of structs that represent individual chess pieces. The struct for each piece contains an int that represents Color and an int that represents the Piece type.
+//As the user manipulates the pieces, the board should reflect each change in position by manipulatin this matrix. The log and the updated chess board should then be displayed after every move to show the previous path of moves. 
+
+
+//~API~
+//The ChessGPT team has committed to using C as the language to code this program. Each major function, such as MainMenu, MoveChessBoardPiece, log_move will be connected through header files for those functions, and smaller functions
+//that enable a larger function will be declared and called within those header files. For exmaple, the Header File that contains the MoveChessBoardPiece will contain functions such as PrintPiece, DeletePiece, PrintChessBoard,
+//EmptyChessBoard, DeleteChessBoardPiece, etc.
+
+
+//~Contribute~
+//If you would like to contribute, feel free to add suggestions for any other functions that you feel would improve the program with some sample code. Make sure that no additional functions take away from or go against any official chess
+//rules and functionality. 
+
+//~Credits~
+//The team was inspired by Professor Doemer's second Lecture to create the two-dimensional array data structure. Some of the team also used GeeksforGeeks to help convert their C++ knowledge to C.  
+
+//For more detailed descriptions of user information, please see the Chess_UserManual.pdf.
+//For more detailed descriptions of the software specification, installation and function descriptions please see the Chess_SoftwareSpec.pdf.
+
+
+
+.............................................................................................................................................................................................................................................
+//Copyright @ 2023 by ChessGPT Inc.
+//All rights reserved. No part of this program may be reproduced or used in any manner without written permission of the copyright owner. 
+//Alpha Version April 2023
+
+  

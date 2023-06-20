@@ -1,0 +1,12 @@
+//INSTALL 
+
+//To install the software package for ChessGPT please type the following in the main directory    tar -xvzf Chess_Alpha_src.tar.gz    and then      Chess_Alpha_src    and then     make
+
+//For further instructions for the user please refer to the Chess_UserManual.pdf
+
+//For further information for fellow developers, please see Chess_Softwarespec.pdf
+
+
+
+© 2023 Chess GPT Inc
+
